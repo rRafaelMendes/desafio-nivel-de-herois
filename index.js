@@ -37,10 +37,10 @@ herois.forEach(e => {
     if(e.exp < 1000) {
         e.elo = 'ferro'
     }
-    if(e.exp > 1000 && e.exp < 2000) {
+    if(e.exp > 1000 && e.exp <= 2000) {
         e.elo = 'bronze'
     }
-    if(e.exp > 1000 && e.exp < 5000) {
+    if(e.exp > 2000 && e.exp < 5000) {
         e.elo = 'prata'
     }
     if(e.exp > 5000 && e.exp < 7000) {
